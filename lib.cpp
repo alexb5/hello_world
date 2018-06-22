@@ -3,7 +3,7 @@
 
 int library1::version()
 {
-  return PRODUCT_VERSION;
+  return PROJECT_VERSION_PATCH;
 }
 
 int library1::square(int x)
