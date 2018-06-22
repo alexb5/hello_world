@@ -1,9 +1,9 @@
 #include <iostream>
-
-using namespace std;
+#include "lib.h"
 
 int main()
 {
-  cout << "Hello World!" << endl;
+  std::cout << "Hello World!" << std::endl;
+  std::cout << "Version " << library1::version() << std::endl;
   return 0;
 }
