@@ -8,6 +8,7 @@ before_script:
   - sudo env "PATH=$PATH" cmake CMakeLists.txt
   - sudo make
   - sudo cp *.a /usr/lib
+  - cd "${TRAVIS_BUILD_DIR}"
 
 script:
   - cmake .
