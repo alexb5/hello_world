@@ -3,7 +3,7 @@ before_script:
   - sudo apt-get -qq update
   - sudo apt-get install -y libgtest-dev
 script:
-  - bash build_gtest.sh
+  - bash ./build_gtest.sh
 
   - cmake .
   - cmake --build .
