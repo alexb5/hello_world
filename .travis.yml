@@ -15,7 +15,7 @@ script:
   - cmake .
   - cmake --build .
   - ctest --build . --target test_boost
- - ctest --build . --target test_gtest
+  - ctest --build . --target test_gtest
   - cmake --build . --target package
 
 deploy:
