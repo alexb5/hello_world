@@ -14,9 +14,8 @@ before_script:
 script:
   - cmake .
   - cmake --build .
-  - ctest --build . --target test_boost
-  - ctest --build . --target test_gtest
-  - cmake --build . --target package
+  - ctest .
+  - cpack .
 
 deploy:
   provider: script
